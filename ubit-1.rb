@@ -10,5 +10,14 @@ else
 end
 puts res
  
-a = nil || false
+puts a = nil || false
+puts b = a && 10
+puts c = a || 10
 
+puts a = nil || false
+puts b = a && 10
+puts c = a || 10
+
+puts a = nil || false
+puts b = a && 10
+puts c = a || 10
